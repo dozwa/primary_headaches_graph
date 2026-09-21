@@ -4,7 +4,8 @@ Reproduction package for the poster **"An ICHD-3 Knowledge Graph for Structured 
 Headache Disorders: Development and Design — Primary headache disorders as machine-checkable rules"**
 (Dorian Zwanzig, GMDS 2026; `poster/gmds_conf_poster_v3.pdf`).
 
-Source: https://github.com/dozwa/primary_headaches_graph · Archived releases: Zenodo (DOI added with the first release)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22875899.svg)](https://doi.org/10.5281/zenodo.22875899)
+Source: https://github.com/dozwa/primary_headaches_graph · Archive: https://doi.org/10.5281/zenodo.22875899 (concept DOI, resolves to the latest version)
 
 The package is deliberately minimal: it holds what is needed to **build the graph** (JSON bundle →
 Neo4j) and to **reproduce the poster's numbers** (reasoner + cases + checker), nothing else.
@@ -201,6 +202,6 @@ any commercial use requires the Society's permission via Sage Publications Ltd
 Please cite the poster and this package as given in `CITATION.cff`:
 
 > Zwanzig D. ICHD-3 primary headache knowledge graph, Kleene reasoner and Gold-2 cases — reproduction
-> package for the GMDS 2026 poster. 2026. https://github.com/dozwa/primary_headaches_graph
+> package for the GMDS 2026 poster. Zenodo, 2026. https://doi.org/10.5281/zenodo.22875899
 
 Contact: Dorian Zwanzig, HNEE · dorian.zwanzig@hnee.de · ORCID 0009-0000-0990-3570

@@ -9,6 +9,14 @@ authors:
     affiliation: "Hochschule für nachhaltige Entwicklung Eberswalde (HNEE); Universität Greifswald"
     email: dorian.zwanzig@hnee.de
 date-released: "2026-09-21"
+doi: 10.5281/zenodo.22875899
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22875899
+    description: "Concept DOI (resolves to the latest version)"
+  - type: doi
+    value: 10.5281/zenodo.22878505
+    description: "Version DOI of the pre-release archived from the GitHub tag pre-release"
 repository-code: "https://github.com/dozwa/primary_headaches_graph"
 license: MIT
 license-url: "https://ichd-3.org/copyright/"

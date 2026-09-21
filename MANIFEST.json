@@ -1,6 +1,6 @@
 {
  "package": "ichd3-primary-graph-gmds2026",
- "built": "2026-09-21T13:29:27+00:00",
+ "built": "2026-09-21T15:42:00+00:00",
  "git_commit": "52e7e5efe1192f2e4073ba5085af0286f59b1611",
  "git_dirty": true,
  "graph_fingerprint": "3e4abc821591",
@@ -12,8 +12,8 @@
    "bytes": 1653
   },
   "CITATION.cff": {
-   "sha256": "b2a053dbe2ae4ea55071dc24aa621c79304805edc7da40d2d3f3e449b777f318",
-   "bytes": 1919
+   "sha256": "4dff84967321ae5f7c0364bff180a101009ff6192523224be4c505a36406c18e",
+   "bytes": 2214
   },
   "LICENSE-CODE": {
    "sha256": "fff2fb43201bafded3b94d3d7a9b8c91bdec18e7e17a0a528763a7f6a912bd67",
@@ -28,8 +28,8 @@
    "bytes": 1515
   },
   "README.md": {
-   "sha256": "9a781c9b04dd91cf6b3252d7f8f002cf18ab818d7bc7f39449b89230117fdf3a",
-   "bytes": 13807
+   "sha256": "6ca966fe7460d24edcc2aa2959832be1c23373871c4e13174c4e107886ef3813",
+   "bytes": 13948
   },
   "expected/fig3_case.json": {
    "sha256": "86c8032bca271cbdade017bcae5a2dff3e3dff682cf8bd0a8cb13aeb08f76c9b",
