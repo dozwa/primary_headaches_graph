@@ -1,0 +1,138 @@
+[
+ {
+  "path": "/Users/dorianzwanzig/Projects/neo4j_reasoning_pipeline/publication/gmds2026/graph/ichd3_decomposition_v6_primary_graph.json",
+  "nodes": 1200,
+  "diagnoses": 77,
+  "leaves": 55,
+  "labels": {
+   "Logic": 600,
+   "SubCriterion": 357,
+   "Criterion": 166,
+   "Diagnosis": 77
+  },
+  "kinds": {
+   "GROUND": 239,
+   "AND": 136,
+   "QUANTIFIER": 49,
+   "PERIOD_PATTERN": 11,
+   "OR": 62,
+   "TEMPORAL": 55,
+   "KOfN": 16,
+   "NOT": 8,
+   "CAUSAL_COUPLING": 18,
+   "CAUSAL_TEMPORAL": 5,
+   "REPORTED": 1
+  },
+  "edges_operands": 584,
+  "edges_satisfied_by": 600,
+  "ground_nodes": 377,
+  "ground_refs": 658,
+  "negated_ground_refs": 21,
+  "entities": {
+   "Attribute": 113,
+   "Symptom": 31,
+   "Disorder": 4
+  },
+  "shared_nodes": 0,
+  "taxonomy": 1,
+  "exhaustive": 1,
+  "exclusive_pairs": 14,
+  "epistemic": {
+   "closed_world": 91,
+   "open_world": 9
+  },
+  "chapters": {
+   "1": {
+    "diagnoses": 27,
+    "leaves": 21,
+    "kinds": {
+     "GROUND": 348,
+     "TEMPORAL": 79,
+     "OR": 63,
+     "QUANTIFIER": 32,
+     "KOfN": 29,
+     "AND": 114,
+     "NOT": 4,
+     "PERIOD_PATTERN": 1,
+     "REPORTED": 1
+    },
+    "entities": {
+     "Symptom": 13,
+     "Attribute": 62,
+     "Disorder": 4
+    },
+    "depth_median": 9,
+    "depth_max": 13,
+    "letters_per_dx_median": 5,
+    "grounds_per_dx_median": 13,
+    "grounds_per_dx_max": 23
+   },
+   "2": {
+    "diagnoses": 12,
+    "leaves": 9,
+    "kinds": {
+     "AND": 53,
+     "GROUND": 110,
+     "QUANTIFIER": 33,
+     "KOfN": 16,
+     "NOT": 3
+    },
+    "entities": {
+     "Symptom": 4,
+     "Attribute": 15
+    },
+    "depth_median": 9.0,
+    "depth_max": 11,
+    "letters_per_dx_median": 5.0,
+    "grounds_per_dx_median": 9.0,
+    "grounds_per_dx_max": 11
+   },
+   "3": {
+    "diagnoses": 17,
+    "leaves": 11,
+    "kinds": {
+     "GROUND": 336,
+     "AND": 74,
+     "TEMPORAL": 22,
+     "OR": 126,
+     "QUANTIFIER": 40,
+     "PERIOD_PATTERN": 10,
+     "KOfN": 3,
+     "NOT": 1
+    },
+    "entities": {
+     "Symptom": 5,
+     "Attribute": 25
+    },
+    "depth_median": 11,
+    "depth_max": 15,
+    "letters_per_dx_median": 5,
+    "grounds_per_dx_median": 15,
+    "grounds_per_dx_max": 63
+   },
+   "4": {
+    "diagnoses": 21,
+    "leaves": 14,
+    "kinds": {
+     "AND": 40,
+     "CAUSAL_COUPLING": 18,
+     "TEMPORAL": 31,
+     "GROUND": 43,
+     "QUANTIFIER": 20,
+     "OR": 16,
+     "KOfN": 5,
+     "CAUSAL_TEMPORAL": 5
+    },
+    "entities": {
+     "Symptom": 18,
+     "Attribute": 20
+    },
+    "depth_median": 5,
+    "depth_max": 13,
+    "letters_per_dx_median": 2,
+    "grounds_per_dx_median": 1,
+    "grounds_per_dx_max": 8
+   }
+  }
+ }
+]

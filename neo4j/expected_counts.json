@@ -1,0 +1,22 @@
+{
+ "nodes": 1348,
+ "edges": 1851,
+ "labels": {
+  "Diagnosis": 77,
+  "Criterion": 166,
+  "SubCriterion": 357,
+  "Logic": 600,
+  "Symptom": 31,
+  "Attribute": 113,
+  "Disorder": 4
+ },
+ "relationships": {
+  "SATISFIED_BY": 600,
+  "OPERAND": 584,
+  "GROUNDS_ON": 658,
+  "IS_A": 2,
+  "MUTUALLY_EXCLUSIVE": 7
+ },
+ "grounds_on_negated": 21,
+ "graph_fingerprint": "383cbf7f0343"
+}

@@ -1,0 +1,38 @@
+License of the data files — International Headache Society terms for ICHD-3
+============================================================================
+
+Applies to every file that reproduces or derives from the ICHD-3 classification text:
+graph/ (rule graph bundle: graph, vocabulary, criteria side-car), neo4j/neo4j_layered.cypher,
+gold/ (Gold-2 test cases, which are constructed from the criteria) and expected/. The code (src/, scripts/, reproduce.sh) is licensed separately under the
+MIT License, see LICENSE-CODE.
+
+The International Classification of Headache Disorders, 3rd edition (ICHD-3) is copyright of the
+International Headache Society (IHS). Its terms of reproduction, as published on the official
+classification site (https://ichd-3.org/copyright/, retrieved 21 September 2026), read verbatim:
+
+    The 3rd edition of International Classification of Headache Disorders (ICHD-3) may be
+    reproduced freely for scientific, educational or clinical uses by institutions, societies
+    or individuals. Otherwise, copyright belongs exclusively to the International Headache
+    Society. Reproduction of any part or parts in any manner for commercial uses requires the
+    Society's permission, which will be granted on payment of a fee. Please contact the
+    publisher at the address below.
+
+    © International Headache Society 2013-2018.
+
+    Applications for copyright permissions should be submitted to Sage Publications Ltd,
+    1 Oliver's Yard, 55 City Road, London EC1Y 1SP, United Kingdom
+    (tel: +44 (0) 20 7324 8500; fax: +44 (0) 207 324 8600; www.uksagepub.com).
+
+The data files of this package are therefore made available under exactly these terms:
+
+  * Free use, reproduction and adaptation for scientific, educational or clinical purposes by
+    institutions, societies or individuals, with attribution of ICHD-3 (Headache Classification
+    Committee of the IHS, Cephalalgia 2018;38(1):1-211, doi:10.1177/0333102417738202) and of
+    this package (CITATION.cff).
+  * Any commercial use of any part requires the permission of the International Headache Society,
+    to be requested from Sage Publications Ltd as stated above.
+
+The formalization itself (operator trees, groundings, generated cases) is the work of the
+package author, Dorian Zwanzig, 2026; the author grants the same scientific/educational/clinical
+use and asks for attribution. No warranty is given: the graph is a research formalization of the
+classification, not a clinical decision tool.

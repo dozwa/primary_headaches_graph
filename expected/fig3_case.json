@@ -1,0 +1,478 @@
+{
+ "case": "poster_fig3",
+ "policy": "open-world (EvalPolicy())",
+ "diagnoses": {
+  "1.1": {
+   "verdict": "TRUE",
+   "nodes": {
+    "1.1": {
+     "label": "Diagnosis",
+     "verdict": "TRUE",
+     "name": "Migraine without aura"
+    },
+    "1.1/n0": {
+     "label": "Logic",
+     "verdict": "TRUE",
+     "kind": "AND"
+    },
+    "1.1/D": {
+     "label": "Criterion",
+     "verdict": "TRUE",
+     "name": "D"
+    },
+    "1.1/n12": {
+     "label": "Logic",
+     "verdict": "TRUE",
+     "kind": "OR"
+    },
+    "1.1/D/2": {
+     "label": "SubCriterion",
+     "verdict": "TRUE",
+     "name": "D/2"
+    },
+    "1.1/n16": {
+     "label": "Logic",
+     "verdict": "TRUE",
+     "kind": "AND"
+    },
+    "1.1/D/2#n17": {
+     "label": "SubCriterion",
+     "verdict": "TRUE",
+     "name": "D/2#n17"
+    },
+    "1.1/n17": {
+     "label": "Logic",
+     "verdict": "TRUE",
+     "kind": "GROUND"
+    },
+    "photophobia": {
+     "label": "Entity",
+     "verdict": "UNKNOWN"
+    },
+    "headache": {
+     "label": "Entity",
+     "verdict": "UNKNOWN"
+    },
+    "1.1/D/2#n18": {
+     "label": "SubCriterion",
+     "verdict": "TRUE",
+     "name": "D/2#n18"
+    },
+    "1.1/n18": {
+     "label": "Logic",
+     "verdict": "TRUE",
+     "kind": "GROUND"
+    },
+    "phonophobia": {
+     "label": "Entity",
+     "verdict": "UNKNOWN"
+    },
+    "1.1/D/1": {
+     "label": "SubCriterion",
+     "verdict": "UNKNOWN",
+     "name": "D/1"
+    },
+    "1.1/n13": {
+     "label": "Logic",
+     "verdict": "UNKNOWN",
+     "kind": "OR"
+    },
+    "1.1/D/1#n15": {
+     "label": "SubCriterion",
+     "verdict": "UNKNOWN",
+     "name": "D/1#n15"
+    },
+    "1.1/n15": {
+     "label": "Logic",
+     "verdict": "UNKNOWN",
+     "kind": "GROUND"
+    },
+    "vomiting": {
+     "label": "Entity",
+     "verdict": "UNKNOWN"
+    },
+    "1.1/D/1#n14": {
+     "label": "SubCriterion",
+     "verdict": "UNKNOWN",
+     "name": "D/1#n14"
+    },
+    "1.1/n14": {
+     "label": "Logic",
+     "verdict": "UNKNOWN",
+     "kind": "GROUND"
+    },
+    "nausea": {
+     "label": "Entity",
+     "verdict": "UNKNOWN"
+    },
+    "1.1/A": {
+     "label": "Criterion",
+     "verdict": "TRUE",
+     "name": "A"
+    },
+    "1.1/n1": {
+     "label": "Logic",
+     "verdict": "TRUE",
+     "kind": "QUANTIFIER"
+    },
+    "attack": {
+     "label": "Entity",
+     "verdict": "UNKNOWN"
+    },
+    "1.1/B": {
+     "label": "Criterion",
+     "verdict": "TRUE",
+     "name": "B"
+    },
+    "1.1/n2": {
+     "label": "Logic",
+     "verdict": "TRUE",
+     "kind": "TEMPORAL"
+    },
+    "1.1/C": {
+     "label": "Criterion",
+     "verdict": "TRUE",
+     "name": "C"
+    },
+    "1.1/n3": {
+     "label": "Logic",
+     "verdict": "TRUE",
+     "kind": "KOfN"
+    },
+    "1.1/C/1": {
+     "label": "SubCriterion",
+     "verdict": "TRUE",
+     "name": "C/1"
+    },
+    "1.1/n4": {
+     "label": "Logic",
+     "verdict": "TRUE",
+     "kind": "GROUND"
+    },
+    "unilateral_location": {
+     "label": "Entity",
+     "verdict": "UNKNOWN"
+    },
+    "1.1/C/2": {
+     "label": "SubCriterion",
+     "verdict": "TRUE",
+     "name": "C/2"
+    },
+    "1.1/n5": {
+     "label": "Logic",
+     "verdict": "TRUE",
+     "kind": "GROUND"
+    },
+    "pulsating_quality": {
+     "label": "Entity",
+     "verdict": "UNKNOWN"
+    },
+    "1.1/C/3": {
+     "label": "SubCriterion",
+     "verdict": "UNKNOWN",
+     "name": "C/3"
+    },
+    "1.1/n6": {
+     "label": "Logic",
+     "verdict": "UNKNOWN",
+     "kind": "OR"
+    },
+    "1.1/C/3#n8": {
+     "label": "SubCriterion",
+     "verdict": "UNKNOWN",
+     "name": "C/3#n8"
+    },
+    "1.1/n8": {
+     "label": "Logic",
+     "verdict": "UNKNOWN",
+     "kind": "GROUND"
+    },
+    "severe_pain_intensity": {
+     "label": "Entity",
+     "verdict": "UNKNOWN"
+    },
+    "1.1/C/3#n7": {
+     "label": "SubCriterion",
+     "verdict": "UNKNOWN",
+     "name": "C/3#n7"
+    },
+    "1.1/n7": {
+     "label": "Logic",
+     "verdict": "UNKNOWN",
+     "kind": "GROUND"
+    },
+    "moderate_pain_intensity": {
+     "label": "Entity",
+     "verdict": "UNKNOWN"
+    },
+    "1.1/C/4": {
+     "label": "SubCriterion",
+     "verdict": "UNKNOWN",
+     "name": "C/4"
+    },
+    "1.1/n9": {
+     "label": "Logic",
+     "verdict": "UNKNOWN",
+     "kind": "OR"
+    },
+    "1.1/C/4#n11": {
+     "label": "SubCriterion",
+     "verdict": "UNKNOWN",
+     "name": "C/4#n11"
+    },
+    "1.1/n11": {
+     "label": "Logic",
+     "verdict": "UNKNOWN",
+     "kind": "GROUND"
+    },
+    "avoidance_of_physical_activity": {
+     "label": "Entity",
+     "verdict": "UNKNOWN"
+    },
+    "1.1/C/4#n10": {
+     "label": "SubCriterion",
+     "verdict": "UNKNOWN",
+     "name": "C/4#n10"
+    },
+    "1.1/n10": {
+     "label": "Logic",
+     "verdict": "UNKNOWN",
+     "kind": "GROUND"
+    },
+    "aggravation_by_physical_activity": {
+     "label": "Entity",
+     "verdict": "UNKNOWN"
+    }
+   }
+  },
+  "2.2": {
+   "verdict": "FALSE",
+   "nodes": {
+    "2.2": {
+     "label": "Diagnosis",
+     "verdict": "FALSE",
+     "name": "Frequent episodic tension-type headache"
+    },
+    "2.2/n0": {
+     "label": "Logic",
+     "verdict": "FALSE",
+     "kind": "AND"
+    },
+    "2.2/B": {
+     "label": "Criterion",
+     "verdict": "UNKNOWN",
+     "name": "B"
+    },
+    "2.2/n7": {
+     "label": "Logic",
+     "verdict": "UNKNOWN",
+     "kind": "GROUND"
+    },
+    "headache": {
+     "label": "Entity",
+     "verdict": "UNKNOWN"
+    },
+    "lasting_from_30_minutes_to_seven_days": {
+     "label": "Entity",
+     "verdict": "UNKNOWN"
+    },
+    "2.2/A": {
+     "label": "Criterion",
+     "verdict": "FALSE",
+     "name": "A"
+    },
+    "2.2/n1": {
+     "label": "Logic",
+     "verdict": "FALSE",
+     "kind": "AND"
+    },
+    "2.2/A#n6": {
+     "label": "SubCriterion",
+     "verdict": "TRUE",
+     "name": "A#n6"
+    },
+    "2.2/n6": {
+     "label": "Logic",
+     "verdict": "TRUE",
+     "kind": "QUANTIFIER"
+    },
+    "headache_day": {
+     "label": "Entity",
+     "verdict": "UNKNOWN"
+    },
+    "2.2/A#n4": {
+     "label": "SubCriterion",
+     "verdict": "UNKNOWN",
+     "name": "A#n4"
+    },
+    "2.2/n4": {
+     "label": "Logic",
+     "verdict": "UNKNOWN",
+     "kind": "QUANTIFIER"
+    },
+    "2.2/A#n5": {
+     "label": "SubCriterion",
+     "verdict": "FALSE",
+     "name": "A#n5"
+    },
+    "2.2/n5": {
+     "label": "Logic",
+     "verdict": "FALSE",
+     "kind": "QUANTIFIER"
+    },
+    "2.2/A#n2": {
+     "label": "SubCriterion",
+     "verdict": "TRUE",
+     "name": "A#n2"
+    },
+    "2.2/n2": {
+     "label": "Logic",
+     "verdict": "TRUE",
+     "kind": "QUANTIFIER"
+    },
+    "attack": {
+     "label": "Entity",
+     "verdict": "UNKNOWN"
+    },
+    "2.2/A#n3": {
+     "label": "SubCriterion",
+     "verdict": "UNKNOWN",
+     "name": "A#n3"
+    },
+    "2.2/n3": {
+     "label": "Logic",
+     "verdict": "UNKNOWN",
+     "kind": "QUANTIFIER"
+    },
+    "2.2/C": {
+     "label": "Criterion",
+     "verdict": "UNKNOWN",
+     "name": "C"
+    },
+    "2.2/n8": {
+     "label": "Logic",
+     "verdict": "UNKNOWN",
+     "kind": "KOfN"
+    },
+    "2.2/C/1": {
+     "label": "SubCriterion",
+     "verdict": "UNKNOWN",
+     "name": "C/1"
+    },
+    "2.2/n9": {
+     "label": "Logic",
+     "verdict": "UNKNOWN",
+     "kind": "GROUND"
+    },
+    "bilateral_location": {
+     "label": "Entity",
+     "verdict": "UNKNOWN"
+    },
+    "2.2/C/3": {
+     "label": "SubCriterion",
+     "verdict": "UNKNOWN",
+     "name": "C/3"
+    },
+    "2.2/n11": {
+     "label": "Logic",
+     "verdict": "UNKNOWN",
+     "kind": "GROUND"
+    },
+    "mild_to_moderate_intensity": {
+     "label": "Entity",
+     "verdict": "UNKNOWN"
+    },
+    "2.2/C/4": {
+     "label": "SubCriterion",
+     "verdict": "UNKNOWN",
+     "name": "C/4"
+    },
+    "2.2/n12": {
+     "label": "Logic",
+     "verdict": "UNKNOWN",
+     "kind": "GROUND"
+    },
+    "no_aggravation_by_physical_activity": {
+     "label": "Entity",
+     "verdict": "UNKNOWN"
+    },
+    "2.2/C/2": {
+     "label": "SubCriterion",
+     "verdict": "UNKNOWN",
+     "name": "C/2"
+    },
+    "2.2/n10": {
+     "label": "Logic",
+     "verdict": "UNKNOWN",
+     "kind": "GROUND"
+    },
+    "pressing_tightening": {
+     "label": "Entity",
+     "verdict": "UNKNOWN"
+    },
+    "2.2/D": {
+     "label": "Criterion",
+     "verdict": "UNKNOWN",
+     "name": "D"
+    },
+    "2.2/n13": {
+     "label": "Logic",
+     "verdict": "UNKNOWN",
+     "kind": "AND"
+    },
+    "2.2/D/1": {
+     "label": "SubCriterion",
+     "verdict": "UNKNOWN",
+     "name": "D/1"
+    },
+    "2.2/n14": {
+     "label": "Logic",
+     "verdict": "UNKNOWN",
+     "kind": "AND"
+    },
+    "2.2/D/1#n16": {
+     "label": "SubCriterion",
+     "verdict": "UNKNOWN",
+     "name": "D/1#n16"
+    },
+    "2.2/n16": {
+     "label": "Logic",
+     "verdict": "UNKNOWN",
+     "kind": "GROUND"
+    },
+    "vomiting": {
+     "label": "Entity",
+     "verdict": "UNKNOWN"
+    },
+    "2.2/D/1#n15": {
+     "label": "SubCriterion",
+     "verdict": "UNKNOWN",
+     "name": "D/1#n15"
+    },
+    "2.2/n15": {
+     "label": "Logic",
+     "verdict": "UNKNOWN",
+     "kind": "GROUND"
+    },
+    "nausea": {
+     "label": "Entity",
+     "verdict": "UNKNOWN"
+    },
+    "2.2/D/2": {
+     "label": "SubCriterion",
+     "verdict": "UNKNOWN",
+     "name": "D/2"
+    },
+    "2.2/n17": {
+     "label": "Logic",
+     "verdict": "UNKNOWN",
+     "kind": "GROUND"
+    },
+    "no_more_than_one_of_photophobia_or_phonophobia_a00087": {
+     "label": "Entity",
+     "verdict": "UNKNOWN"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite the poster and the package as below."
+title: "ICHD-3 primary headache knowledge graph, Kleene reasoner and Gold-2 cases — reproduction package for the GMDS 2026 poster"
+type: dataset
+authors:
+  - family-names: Zwanzig
+    given-names: Dorian
+    orcid: "https://orcid.org/0009-0000-0990-3570"
+    affiliation: "Hochschule für nachhaltige Entwicklung Eberswalde (HNEE); Universität Greifswald"
+    email: dorian.zwanzig@hnee.de
+date-released: "2026-09-21"
+repository-code: "https://github.com/dozwa/primary_headaches_graph"
+license: MIT
+license-url: "https://ichd-3.org/copyright/"
+notes: "MIT applies to the code. The data files (graph, gold cases, Cypher, figures) follow the International Headache Society terms for ICHD-3: free for scientific, educational or clinical use with attribution, commercial use only with IHS permission (see LICENSE-DATA)."
+keywords:
+  - ICHD-3
+  - headache classification
+  - knowledge graph
+  - three-valued logic
+  - Kleene logic
+  - Neo4j
+  - reproducibility
+preferred-citation:
+  type: conference-paper
+  title: "An ICHD-3 Knowledge Graph for Structured Classification of Headache Disorders: Development and Design"
+  authors:
+    - family-names: Zwanzig
+      given-names: Dorian
+      orcid: "https://orcid.org/0009-0000-0990-3570"
+  conference:
+    name: "GMDS 2026 (joint meeting with ISCB), poster"
+  year: 2026
+references:
+  - type: article
+    title: "The International Classification of Headache Disorders, 3rd edition"
+    authors:
+      - name: "Headache Classification Committee of the International Headache Society (IHS)"
+    journal: Cephalalgia
+    year: 2018
+    volume: 38
+    issue: 1
+    start: 1
+    end: 211
+    doi: 10.1177/0333102417738202
+  - type: book
+    title: "Introduction to Metamathematics"
+    authors:
+      - family-names: Kleene
+        given-names: Stephen Cole
+    year: 1952

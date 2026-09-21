@@ -1,0 +1,25 @@
+# Optional: load the primary graph into a Neo4j 5 database.
+#   ./load.sh            (starts the container, waits, loads neo4j_layered.cypher, prints counts)
+#   Browser: http://localhost:7474  (user neo4j, password from NEO4J_PASSWORD, default "password")
+services:
+  neo4j:
+    image: neo4j:5-community
+    container_name: ichd3-gmds2026-neo4j
+    environment:
+      - NEO4J_AUTH=neo4j/${NEO4J_PASSWORD:-password}
+      - NEO4J_server_memory_heap_max__size=1G
+    ports:
+      - "${NEO4J_HTTP_PORT:-7474}:7474"
+      - "${NEO4J_BOLT_PORT:-7687}:7687"
+    volumes:
+      - neo4j_data:/data
+      - ./neo4j_layered.cypher:/import/neo4j_layered.cypher:ro
+      - ./verify_counts.cypher:/import/verify_counts.cypher:ro
+    healthcheck:
+      test: ["CMD-SHELL", "cypher-shell -u neo4j -p ${NEO4J_PASSWORD:-password} 'RETURN 1' || exit 1"]
+      interval: 5s
+      timeout: 5s
+      retries: 40
+      start_period: 20s
+volumes:
+  neo4j_data:

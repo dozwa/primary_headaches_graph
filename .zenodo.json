@@ -1,0 +1,13 @@
+{
+  "title": "ICHD-3 primary headache knowledge graph, Kleene reasoner and Gold-2 cases — reproduction package for the GMDS 2026 poster",
+  "upload_type": "software",
+  "description": "<p>Reproduction package for the poster <em>An ICHD-3 Knowledge Graph for Structured Classification of Headache Disorders: Development and Design — Primary headache disorders as machine-checkable rules</em> (GMDS 2026). Contains the ICHD-3 chapters 1–4 rule graph (77 diagnoses) as a JSON bundle with a generator for the Neo4j Cypher script, the deterministic three-valued (Kleene) reasoner, the 2 616 graph-derived Gold-2 test cases, and <code>reproduce.sh</code>, which re-computes and asserts all 58 numbers printed on the poster without third-party Python packages.</p><p><strong>Terms.</strong> Code: MIT. Data (graph, cases, Cypher, reference results): the terms of the International Headache Society for ICHD-3 — free reproduction for scientific, educational or clinical use with attribution; any commercial use requires the Society's permission (https://ichd-3.org/copyright/). See LICENSE-DATA and NOTICE-ICHD3.md in the package.</p>",
+  "creators": [
+    {"name": "Zwanzig, Dorian", "affiliation": "Hochschule für nachhaltige Entwicklung Eberswalde (HNEE); Universität Greifswald", "orcid": "0009-0000-0990-3570"}
+  ],
+  "keywords": ["ICHD-3", "headache classification", "knowledge graph", "three-valued logic", "Kleene logic", "Neo4j", "reproducibility"],
+  "related_identifiers": [
+    {"identifier": "10.1177/0333102417738202", "relation": "isDerivedFrom", "resource_type": "publication-article", "scheme": "doi"}
+  ],
+  "access_right": "open"
+}

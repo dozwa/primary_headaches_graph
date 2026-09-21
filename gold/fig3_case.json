@@ -1,0 +1,70 @@
+{
+ "vignette_id": "poster_fig3",
+ "language": "en",
+ "findings": [
+  {
+   "symptom": "attack",
+   "status": "present",
+   "evidence": "poster"
+  },
+  {
+   "symptom": "headache",
+   "status": "present",
+   "evidence": "poster"
+  },
+  {
+   "symptom": "headache",
+   "attribute": "unilateral_location",
+   "status": "present",
+   "evidence": "unilateral"
+  },
+  {
+   "symptom": "headache",
+   "attribute": "pulsating_quality",
+   "status": "present",
+   "evidence": "pulsating"
+  },
+  {
+   "symptom": "headache",
+   "attribute": "photophobia",
+   "status": "present",
+   "evidence": "light hard to bear"
+  },
+  {
+   "symptom": "headache",
+   "attribute": "phonophobia",
+   "status": "present",
+   "evidence": "noise hard to bear"
+  }
+ ],
+ "durations": [
+  {
+   "symptom": "attack",
+   "status": "present",
+   "min_minutes": 360,
+   "max_minutes": 600,
+   "evidence": "six to ten hours"
+  }
+ ],
+ "counts": [
+  {
+   "symptom": "attack",
+   "status": "present",
+   "value": 10,
+   "window": "lifetime",
+   "evidence": "ten attacks"
+  },
+  {
+   "symptom": "headache_day",
+   "status": "present",
+   "value": 10,
+   "window": "per_period",
+   "per": "year",
+   "evidence": "over the past year"
+  }
+ ],
+ "temporal_relations": [],
+ "causal_relations": [],
+ "disorders": [],
+ "measurements": []
+}
